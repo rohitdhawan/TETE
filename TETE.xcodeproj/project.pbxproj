@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6A7EB17152D765E00E7313E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A7EB16152D765E00E7313E /* UIKit.framework */; };
+		D6A7EB19152D765E00E7313E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A7EB18152D765E00E7313E /* Foundation.framework */; };
+		D6A7EB1B152D765E00E7313E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A7EB1A152D765E00E7313E /* CoreGraphics.framework */; };
+		D6A7EB21152D765E00E7313E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB1F152D765E00E7313E /* InfoPlist.strings */; };
+		D6A7EB23152D765E00E7313E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7EB22152D765E00E7313E /* main.m */; };
+		D6A7EB27152D765E00E7313E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7EB26152D765E00E7313E /* AppDelegate.m */; };
+		D6A7EB2A152D765E00E7313E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7EB29152D765E00E7313E /* RootViewController.m */; };
+		D6A7EB2D152D765E00E7313E /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7EB2C152D765E00E7313E /* DataViewController.m */; };
+		D6A7EB30152D765E00E7313E /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7EB2F152D765E00E7313E /* ModelController.m */; };
+		D6A7EB33152D765E00E7313E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB31152D765E00E7313E /* MainStoryboard.storyboard */; };
+		D6A7EB4F152DA37000E7313E /* 01.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB47152DA36F00E7313E /* 01.html */; };
+		D6A7EB50152DA37000E7313E /* 02.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB48152DA36F00E7313E /* 02.html */; };
+		D6A7EB51152DA37000E7313E /* 03.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB49152DA36F00E7313E /* 03.html */; };
+		D6A7EB52152DA37000E7313E /* 04.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB4A152DA36F00E7313E /* 04.html */; };
+		D6A7EB53152DA37000E7313E /* 05.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB4B152DA36F00E7313E /* 05.html */; };
+		D6A7EB54152DA37000E7313E /* 06.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB4C152DA37000E7313E /* 06.html */; };
+		D6A7EB55152DA37000E7313E /* 07.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB4D152DA37000E7313E /* 07.html */; };
+		D6A7EB56152DA37000E7313E /* 08.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A7EB4E152DA37000E7313E /* 08.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6A7EB12152D765E00E7313E /* TETE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TETE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A7EB16152D765E00E7313E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6A7EB18152D765E00E7313E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6A7EB1A152D765E00E7313E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6A7EB1E152D765E00E7313E /* TETE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TETE-Info.plist"; sourceTree = "<group>"; };
+		D6A7EB20152D765E00E7313E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6A7EB22152D765E00E7313E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6A7EB24152D765E00E7313E /* TETE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TETE-Prefix.pch"; sourceTree = "<group>"; };
+		D6A7EB25152D765E00E7313E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6A7EB26152D765E00E7313E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6A7EB28152D765E00E7313E /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		D6A7EB29152D765E00E7313E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D6A7EB2B152D765E00E7313E /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		D6A7EB2C152D765E00E7313E /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		D6A7EB2E152D765E00E7313E /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		D6A7EB2F152D765E00E7313E /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		D6A7EB32152D765E00E7313E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D6A7EB47152DA36F00E7313E /* 01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 01.html; sourceTree = "<group>"; };
+		D6A7EB48152DA36F00E7313E /* 02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 02.html; sourceTree = "<group>"; };
+		D6A7EB49152DA36F00E7313E /* 03.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 03.html; sourceTree = "<group>"; };
+		D6A7EB4A152DA36F00E7313E /* 04.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 04.html; sourceTree = "<group>"; };
+		D6A7EB4B152DA36F00E7313E /* 05.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 05.html; sourceTree = "<group>"; };
+		D6A7EB4C152DA37000E7313E /* 06.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 06.html; sourceTree = "<group>"; };
+		D6A7EB4D152DA37000E7313E /* 07.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 07.html; sourceTree = "<group>"; };
+		D6A7EB4E152DA37000E7313E /* 08.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 08.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6A7EB0F152D765E00E7313E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A7EB17152D765E00E7313E /* UIKit.framework in Frameworks */,
+				D6A7EB19152D765E00E7313E /* Foundation.framework in Frameworks */,
+				D6A7EB1B152D765E00E7313E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6A7EB07152D765E00E7313E = {
+			isa = PBXGroup;
+			children = (
+				D6A7EB1C152D765E00E7313E /* TETE */,
+				D6A7EB15152D765E00E7313E /* Frameworks */,
+				D6A7EB13152D765E00E7313E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6A7EB13152D765E00E7313E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7EB12152D765E00E7313E /* TETE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6A7EB15152D765E00E7313E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7EB16152D765E00E7313E /* UIKit.framework */,
+				D6A7EB18152D765E00E7313E /* Foundation.framework */,
+				D6A7EB1A152D765E00E7313E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6A7EB1C152D765E00E7313E /* TETE */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7EB25152D765E00E7313E /* AppDelegate.h */,
+				D6A7EB26152D765E00E7313E /* AppDelegate.m */,
+				D6A7EB28152D765E00E7313E /* RootViewController.h */,
+				D6A7EB29152D765E00E7313E /* RootViewController.m */,
+				D6A7EB2B152D765E00E7313E /* DataViewController.h */,
+				D6A7EB2C152D765E00E7313E /* DataViewController.m */,
+				D6A7EB2E152D765E00E7313E /* ModelController.h */,
+				D6A7EB2F152D765E00E7313E /* ModelController.m */,
+				D6A7EB31152D765E00E7313E /* MainStoryboard.storyboard */,
+				D6A7EB47152DA36F00E7313E /* 01.html */,
+				D6A7EB48152DA36F00E7313E /* 02.html */,
+				D6A7EB49152DA36F00E7313E /* 03.html */,
+				D6A7EB4A152DA36F00E7313E /* 04.html */,
+				D6A7EB4B152DA36F00E7313E /* 05.html */,
+				D6A7EB4C152DA37000E7313E /* 06.html */,
+				D6A7EB4D152DA37000E7313E /* 07.html */,
+				D6A7EB4E152DA37000E7313E /* 08.html */,
+				D6A7EB1D152D765E00E7313E /* Supporting Files */,
+			);
+			path = TETE;
+			sourceTree = "<group>";
+		};
+		D6A7EB1D152D765E00E7313E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7EB1E152D765E00E7313E /* TETE-Info.plist */,
+				D6A7EB1F152D765E00E7313E /* InfoPlist.strings */,
+				D6A7EB22152D765E00E7313E /* main.m */,
+				D6A7EB24152D765E00E7313E /* TETE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6A7EB11152D765E00E7313E /* TETE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6A7EB36152D765E00E7313E /* Build configuration list for PBXNativeTarget "TETE" */;
+			buildPhases = (
+				D6A7EB0E152D765E00E7313E /* Sources */,
+				D6A7EB0F152D765E00E7313E /* Frameworks */,
+				D6A7EB10152D765E00E7313E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TETE;
+			productName = TETE;
+			productReference = D6A7EB12152D765E00E7313E /* TETE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6A7EB09152D765E00E7313E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D6A7EB0C152D765E00E7313E /* Build configuration list for PBXProject "TETE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6A7EB07152D765E00E7313E;
+			productRefGroup = D6A7EB13152D765E00E7313E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6A7EB11152D765E00E7313E /* TETE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6A7EB10152D765E00E7313E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A7EB21152D765E00E7313E /* InfoPlist.strings in Resources */,
+				D6A7EB33152D765E00E7313E /* MainStoryboard.storyboard in Resources */,
+				D6A7EB4F152DA37000E7313E /* 01.html in Resources */,
+				D6A7EB50152DA37000E7313E /* 02.html in Resources */,
+				D6A7EB51152DA37000E7313E /* 03.html in Resources */,
+				D6A7EB52152DA37000E7313E /* 04.html in Resources */,
+				D6A7EB53152DA37000E7313E /* 05.html in Resources */,
+				D6A7EB54152DA37000E7313E /* 06.html in Resources */,
+				D6A7EB55152DA37000E7313E /* 07.html in Resources */,
+				D6A7EB56152DA37000E7313E /* 08.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6A7EB0E152D765E00E7313E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A7EB23152D765E00E7313E /* main.m in Sources */,
+				D6A7EB27152D765E00E7313E /* AppDelegate.m in Sources */,
+				D6A7EB2A152D765E00E7313E /* RootViewController.m in Sources */,
+				D6A7EB2D152D765E00E7313E /* DataViewController.m in Sources */,
+				D6A7EB30152D765E00E7313E /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6A7EB1F152D765E00E7313E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6A7EB20152D765E00E7313E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6A7EB31152D765E00E7313E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6A7EB32152D765E00E7313E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6A7EB34152D765E00E7313E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D6A7EB35152D765E00E7313E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6A7EB37152D765E00E7313E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TETE/TETE-Prefix.pch";
+				INFOPLIST_FILE = "TETE/TETE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6A7EB38152D765E00E7313E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TETE/TETE-Prefix.pch";
+				INFOPLIST_FILE = "TETE/TETE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6A7EB0C152D765E00E7313E /* Build configuration list for PBXProject "TETE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7EB34152D765E00E7313E /* Debug */,
+				D6A7EB35152D765E00E7313E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A7EB36152D765E00E7313E /* Build configuration list for PBXNativeTarget "TETE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7EB37152D765E00E7313E /* Debug */,
+				D6A7EB38152D765E00E7313E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6A7EB09152D765E00E7313E /* Project object */;
+}
